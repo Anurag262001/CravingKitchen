@@ -1,0 +1,24 @@
+/* Scrollbar.css */
+
+/* Track */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #ECB159;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #eeee;
+  }
+
+  *{
+    scroll-behavior: smooth;
+    
+  }
+  div{
+    scroll-snap-align: center;
+  }
